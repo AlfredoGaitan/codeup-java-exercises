@@ -8,19 +8,6 @@ public class ConsoleExercises {
 //        double pi = 3.14159;
 //        System.out.printf("The value of pi is approximately %.2f. \n", pi);
 
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.print("Enter an integer: ");
-//        int i = 0;
-//        while(i != -1) {
-//            System.out.println("Enter an integer: ");
-//            try {
-//                i = scanner.nextInt();
-//                System.out.printf("\nThe integer is: %d \n", i);
-//            } catch(InputMismatchException ime) {
-//                System.out.println("\nThat is not an integer. \n");
-//                i = 0;
-//            }
-//        }
 
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.print("Enter three words: ");
