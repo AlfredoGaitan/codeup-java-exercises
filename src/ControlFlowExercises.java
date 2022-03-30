@@ -59,7 +59,7 @@ public class ControlFlowExercises {
 //            }
 //        }
 
-        //fizzBuzz(100);
+
 
         System.out.print("Enter an integer to go up to: ");
         int userInput = Integer.parseInt(scanner.next());
