@@ -47,28 +47,28 @@ public class ControlFlowExercises {
 //        }
 
 
-//        for(int i=1;i<=100;i++) {
-//            if(i % 15 == 0) {
-//                System.out.println("FizzBuzz");
-//            } else if (i % 5 == 0) {
-//                System.out.println("Buzz");
-//            } else if (i % 3 == 0) {
-//                System.out.println("Fizz");
-//            } else {
-//                System.out.println(i);
-//            }
-//        }
-
-
-
-        System.out.print("Enter an integer to go up to: ");
-        int userInput = Integer.parseInt(scanner.next());
-        System.out.println("Here is your table!\n");
-        System.out.println("Number | Squared | Cubed");
-        System.out.println("------ | ------- | -----");
-        for (int i=1; i<=userInput; i++) {
-            System.out.printf ("%-6d | %-7d | %d\n", i, i*i, i*i*i);
+        for(int i=1;i<=100;i++) {
+            if(i % 15 == 0) {
+                System.out.println("FizzBuzz");
+            } else if (i % 5 == 0) {
+                System.out.println("Buzz");
+            } else if (i % 3 == 0) {
+                System.out.println("Fizz");
+            } else {
+                System.out.println(i);
+            }
         }
+
+
+
+//        System.out.print("Enter an integer to go up to: ");
+//        int userInput = Integer.parseInt(scanner.next());
+//        System.out.println("Here is your table!\n");
+//        System.out.println("Number | Squared | Cubed");
+//        System.out.println("------ | ------- | -----");
+//        for (int i=1; i<=userInput; i++) {
+//            System.out.printf ("%-6d | %-7d | %d\n", i, i*i, i*i*i);
+//        }
 
 
 
